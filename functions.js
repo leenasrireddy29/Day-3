@@ -211,6 +211,26 @@
     console.log(sal);
  }
  x();
+ function x(){
+   var a = 10;
+   let b = 20;
+   console.log(a, b);
+   function y(){
+      let p = "JS";
+      let q = "react";
+      console.log(p, q);
+      function z(){
+         const username = "Leena";
+         console.log(username);
+         console.log(p);
+         console.log(q);
+      }
+      z();
+   }
+   y();
+
+ }
+ x();
 
 
 
