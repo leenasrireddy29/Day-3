@@ -24,14 +24,36 @@
 // let backend=["nodejs","expressjs","java","golang"];
 // let fullstack=frontend.concat(backend);
 // console.log(fullstack);
-let userDetails={
-    name:"leena",
-    age:20,
-    address:{
-        area:"siddipet",
-        streetno:"2",
-        pincode:"502103",
-    }
+// let userDetails={
+//     name:"leena",
+//     age:20,
+//     address:{
+//         area:"siddipet",
+//         streetno:"2",
+//         pincode:"502103",
+//     }
 
-};
-console.log(userDetails.address.area);
+// };
+// console.log(userDetails.address.area);
+// let userDetails ={
+//     name:"ankith",
+//     age:25,
+//     city:"hyd",
+
+// }
+// console.log(userDetails);
+// console.log(typeof(userDetails));
+// let x=JSON.stringify(userDetails);
+// console.log(x);
+// let y=JSON.parse(x);
+// console.log(y);
+localStorage.setItem("user1","Leena");
+localStorage.setItem("user2","ashh");
+localStorage.setItem("user3","sujjii");
+localStorage.setItem("user4","anjali");
+localStorage.setItem("user5","rishii");
+localStorage.setItem("user6","riyaa");
+
+let user6=localStorage.getItem("user6");
+console.log(user6);
+localStorage.removeItem("user1");
